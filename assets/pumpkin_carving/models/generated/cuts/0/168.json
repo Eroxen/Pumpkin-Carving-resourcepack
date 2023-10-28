@@ -1,0 +1,45 @@
+{
+  "textures": {
+    "front": "minecraft:block/pumpkin_side",
+    "side": "pumpkin_carving:block/pumpkin_slice",
+    "back": "pumpkin_carving:block/pumpkin_inside"
+  },
+  "elements": [
+    {
+      "from": [10, 2, 0],
+      "to": [11, 3, 2],
+      "faces": {
+        "north": {"uv": [5, 13, 6, 14], "texture": "front"},
+        "south": {"uv": [10, 13, 11, 14], "texture": "back"},
+        "east": {"uv": [2, 2, 0, 3], "texture": "side"},
+        "west": {"uv": [0, 2, 2, 3], "texture": "side"},
+        "up": {"uv": [0, 10, 2, 11], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 10, 2, 11], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [12, 3, 0],
+      "to": [13, 4, 2],
+      "faces": {
+        "north": {"uv": [3, 12, 4, 13], "texture": "front"},
+        "south": {"uv": [12, 12, 13, 13], "texture": "back"},
+        "east": {"uv": [2, 3, 0, 4], "texture": "side"},
+        "west": {"uv": [0, 3, 2, 4], "texture": "side"},
+        "up": {"uv": [0, 12, 2, 13], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 12, 2, 13], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [10, 3, 0],
+      "to": [11, 4, 2],
+      "faces": {
+        "north": {"uv": [5, 12, 6, 13], "texture": "front"},
+        "south": {"uv": [10, 12, 11, 13], "texture": "back"},
+        "east": {"uv": [2, 3, 0, 4], "texture": "side"},
+        "west": {"uv": [0, 3, 2, 4], "texture": "side"},
+        "up": {"uv": [0, 10, 2, 11], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 10, 2, 11], "texture": "side", "rotation": 270}
+      }
+    }
+  ]
+}

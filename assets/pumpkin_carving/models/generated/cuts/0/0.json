@@ -1,0 +1,8 @@
+{
+  "textures": {
+    "front": "minecraft:block/pumpkin_side",
+    "side": "pumpkin_carving:block/pumpkin_slice",
+    "back": "pumpkin_carving:block/pumpkin_inside"
+  },
+  "elements": []
+}

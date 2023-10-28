@@ -1,0 +1,93 @@
+{
+  "textures": {
+    "front": "minecraft:block/pumpkin_side",
+    "side": "pumpkin_carving:block/pumpkin_slice",
+    "back": "pumpkin_carving:block/pumpkin_inside"
+  },
+  "elements": [
+    {
+      "from": [5, 2, 0],
+      "to": [6, 3, 2],
+      "faces": {
+        "north": {"uv": [10, 13, 11, 14], "texture": "front"},
+        "south": {"uv": [5, 13, 6, 14], "texture": "back"},
+        "east": {"uv": [2, 2, 0, 3], "texture": "side"},
+        "west": {"uv": [0, 2, 2, 3], "texture": "side"},
+        "up": {"uv": [0, 5, 2, 6], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 5, 2, 6], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [4, 2, 0],
+      "to": [5, 3, 2],
+      "faces": {
+        "north": {"uv": [11, 13, 12, 14], "texture": "front"},
+        "south": {"uv": [4, 13, 5, 14], "texture": "back"},
+        "east": {"uv": [2, 2, 0, 3], "texture": "side"},
+        "west": {"uv": [0, 2, 2, 3], "texture": "side"},
+        "up": {"uv": [0, 4, 2, 5], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 4, 2, 5], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [3, 2, 0],
+      "to": [4, 3, 2],
+      "faces": {
+        "north": {"uv": [12, 13, 13, 14], "texture": "front"},
+        "south": {"uv": [3, 13, 4, 14], "texture": "back"},
+        "east": {"uv": [2, 2, 0, 3], "texture": "side"},
+        "west": {"uv": [0, 2, 2, 3], "texture": "side"},
+        "up": {"uv": [0, 3, 2, 4], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 3, 2, 4], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [2, 2, 0],
+      "to": [3, 3, 2],
+      "faces": {
+        "north": {"uv": [13, 13, 14, 14], "texture": "front"},
+        "south": {"uv": [2, 13, 3, 14], "texture": "back"},
+        "east": {"uv": [2, 2, 0, 3], "texture": "side"},
+        "west": {"uv": [0, 2, 2, 3], "texture": "side"},
+        "up": {"uv": [0, 2, 2, 3], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 2, 2, 3], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [4, 3, 0],
+      "to": [5, 4, 2],
+      "faces": {
+        "north": {"uv": [11, 12, 12, 13], "texture": "front"},
+        "south": {"uv": [4, 12, 5, 13], "texture": "back"},
+        "east": {"uv": [2, 3, 0, 4], "texture": "side"},
+        "west": {"uv": [0, 3, 2, 4], "texture": "side"},
+        "up": {"uv": [0, 4, 2, 5], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 4, 2, 5], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [3, 3, 0],
+      "to": [4, 4, 2],
+      "faces": {
+        "north": {"uv": [12, 12, 13, 13], "texture": "front"},
+        "south": {"uv": [3, 12, 4, 13], "texture": "back"},
+        "east": {"uv": [2, 3, 0, 4], "texture": "side"},
+        "west": {"uv": [0, 3, 2, 4], "texture": "side"},
+        "up": {"uv": [0, 3, 2, 4], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 3, 2, 4], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [2, 3, 0],
+      "to": [3, 4, 2],
+      "faces": {
+        "north": {"uv": [13, 12, 14, 13], "texture": "front"},
+        "south": {"uv": [2, 12, 3, 13], "texture": "back"},
+        "east": {"uv": [2, 3, 0, 4], "texture": "side"},
+        "west": {"uv": [0, 3, 2, 4], "texture": "side"},
+        "up": {"uv": [0, 2, 2, 3], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 2, 2, 3], "texture": "side", "rotation": 270}
+      }
+    }
+  ]
+}

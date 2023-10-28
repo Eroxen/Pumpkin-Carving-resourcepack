@@ -1,0 +1,57 @@
+{
+  "textures": {
+    "front": "minecraft:block/pumpkin_side",
+    "side": "pumpkin_carving:block/pumpkin_slice",
+    "back": "pumpkin_carving:block/pumpkin_inside"
+  },
+  "elements": [
+    {
+      "from": [4, 10, 0],
+      "to": [5, 11, 2],
+      "faces": {
+        "north": {"uv": [11, 5, 12, 6], "texture": "front"},
+        "south": {"uv": [4, 5, 5, 6], "texture": "back"},
+        "east": {"uv": [2, 10, 0, 11], "texture": "side"},
+        "west": {"uv": [0, 10, 2, 11], "texture": "side"},
+        "up": {"uv": [0, 4, 2, 5], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 4, 2, 5], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [3, 10, 0],
+      "to": [4, 11, 2],
+      "faces": {
+        "north": {"uv": [12, 5, 13, 6], "texture": "front"},
+        "south": {"uv": [3, 5, 4, 6], "texture": "back"},
+        "east": {"uv": [2, 10, 0, 11], "texture": "side"},
+        "west": {"uv": [0, 10, 2, 11], "texture": "side"},
+        "up": {"uv": [0, 3, 2, 4], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 3, 2, 4], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [2, 10, 0],
+      "to": [3, 11, 2],
+      "faces": {
+        "north": {"uv": [13, 5, 14, 6], "texture": "front"},
+        "south": {"uv": [2, 5, 3, 6], "texture": "back"},
+        "east": {"uv": [2, 10, 0, 11], "texture": "side"},
+        "west": {"uv": [0, 10, 2, 11], "texture": "side"},
+        "up": {"uv": [0, 2, 2, 3], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 2, 2, 3], "texture": "side", "rotation": 270}
+      }
+    },
+    {
+      "from": [2, 11, 0],
+      "to": [3, 12, 2],
+      "faces": {
+        "north": {"uv": [13, 4, 14, 5], "texture": "front"},
+        "south": {"uv": [2, 4, 3, 5], "texture": "back"},
+        "east": {"uv": [2, 11, 0, 12], "texture": "side"},
+        "west": {"uv": [0, 11, 2, 12], "texture": "side"},
+        "up": {"uv": [0, 2, 2, 3], "texture": "side", "rotation": 90},
+        "down": {"uv": [0, 2, 2, 3], "texture": "side", "rotation": 270}
+      }
+    }
+  ]
+}
